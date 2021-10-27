@@ -1,0 +1,31 @@
+[
+    {
+        "title": "אדום",
+        "value":"#ed1c24"
+    },
+    {
+        "title": "ירוק",
+        "value":"#1aef4e"
+    }, 
+    {
+        "title": "כחול",
+        "value":"#3353c4"
+    },
+     {
+        "title": "צהוב",
+        "value":"#fcce0b"
+    }, 
+    {
+        "title": "סגול",
+        "value":"#ab3faa"
+    }, 
+    {
+        "title": "חום",
+        "value":"#a56400"
+    }, 
+    {
+        "title": "ורוד",
+        "value":"#f037d0"
+    }
+]
+

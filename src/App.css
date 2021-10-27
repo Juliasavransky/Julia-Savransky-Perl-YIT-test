@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+
+body {
+  font-family: 'Open Sans Hebrew', serif;
+}
+/*add you code here*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  direction: rtl;
+  margin: 0;
+}
+
+*img {
+  max-width: 100%;
+}
+
+:root {
+  background: #edf1f5;
+  --fontSizeSmall: 12px;
+  --fontSizeMedium: 14px;
+  --fontSizeLarge: 18px;
+  --titleColor: #25262b;
+  --authorColor: #777777;
+  --colorW: #fff;
+}
+.componenta {
+  width: 19.625rem;
+  height: 24.437rem;
+  margin: 2rem auto;
+  background-color: var(--colorW);
+  box-shadow: -10px 6px 13px -12px rgba(8, 8, 8, 0.47);
+}
+
+.imgArea {
+  width: 100%;
+  height: 11rem;
+  transition: 1s ease-in-out;
+  background: url(./img/landscape_207075.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+.imgArea:hover {
+  background-size: 130%;
+  background-position: center;
+  cursor: zoom-in;
+}
+.container {
+  width: 100%;
+  height: 13.44rem;
+  margin: 1.25rem 1.25rem 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.category {
+  height: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+.category span {
+  padding: 0.25rem 0.75rem;
+  color: var(--colorW);
+  font-size: var(--fontSizeMedium);
+  line-height: 1.25rem;
+}
+.title {
+  width: 17.125rem;
+  height: 3.185rem;
+  font-size: var(--fontSizeLarge);
+  margin-bottom: 0.25rem;
+  line-height: 1.5rem;
+  color: var(--titleColor);
+  font-weight: bold;
+  overflow: hidden;
+}
+.subTitle {
+  width: 17.125rem;
+  height: 4.062rem;
+  margin-bottom: 0.375rem;
+  font-size: var(--fontSizeMedium);
+  line-height: 1.375rem;
+  color: var(--titleColor);
+  overflow: hidden;
+}
+.author {
+  font-size: var(--fontSizeSmall);
+  color: var(--authorColor);
+  font-weight: bold;
+}
+
+/* ******************************************************************** */
+.generator {
+  width: 26rem;
+  padding: 1em 1.5em 2em;
+  background: #d5d9dc;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+select,
+input,
+label {
+  width: 100%;
+  font-size: var(--fontSizeMedium);
+  padding: 0.1rem;
+}
+.mainPage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
